@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "allowJs": true,
+    "checkJs": false,
+    "types": ["cypress"],
+    "noEmit": true
+  },
+  "include": [
+    "src/**/*.js",
+    "cypress/**/*.js",
+    "cypress.config.js"
+  ]
+}
